@@ -5,9 +5,11 @@ import Home from './Pages/Home'
 import Projects from './Pages/Projects'
 import PersonalDetails from './Pages/PersonalDetails'
 import ContactMe from './Pages/ContactMe'
-import Footer from './components/Footer'
 import{ BrowserRouter ,Routes ,Route} from 'react-router-dom'
 import ProjectDetails from './Pages/ProjectDetails'
+import Footer from './components/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const App = () => {
   return (
@@ -24,6 +26,7 @@ const App = () => {
   <Route path='/personal_info' element={<PersonalDetails />}></Route>
 
   <Route path ='/contact_me' element={<ContactMe />} ></Route>
+
 
   </Routes>
   

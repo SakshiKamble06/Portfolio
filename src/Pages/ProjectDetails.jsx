@@ -33,7 +33,7 @@ console.log(PROJECT)
                 <div className="mb-3">
                     <h5>Technologies Used:</h5>
                     {
-                    PROJECT.Tools.map((tool, index) => (
+                    PROJECT.tools.map((tool, index) => (
                         <span key={index} className="badge bg-secondary me-2 mb-2">
                             {tool}
                         </span>
